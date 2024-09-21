@@ -2,3 +2,7 @@
 0:0:0:0:0:0:0:1 - - [19/Sep/2024:19:42:09 +0900] "GET /web-Practice/LifeCycle HTTP/1.1" 200 24
 0:0:0:0:0:0:0:1 - - [19/Sep/2024:19:42:09 +0900] "GET /favicon.ico HTTP/1.1" 404 818
 0:0:0:0:0:0:0:1 - - [19/Sep/2024:19:42:23 +0900] "GET /web-Practice/LifeCycle HTTP/1.1" 200 24
+127.0.0.1 - - [19/Sep/2024:19:58:53 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [19/Sep/2024:19:58:54 +0900] "GET /web-Practice/servletMethod.jsp HTTP/1.1" 200 366
+0:0:0:0:0:0:0:1 - - [19/Sep/2024:19:58:57 +0900] "GET /web-Practice/MethodServlet? HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [19/Sep/2024:19:59:02 +0900] "POST /web-Practice/MethodServlet HTTP/1.1" 200 27
