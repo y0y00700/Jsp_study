@@ -1,0 +1,3 @@
+# JSP Review Study ignore File Path 
+/Jsp_study/jsp_workspace/.metadata/
+/jsp_workspace/.metadata/

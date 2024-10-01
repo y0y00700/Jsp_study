@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%! //선언부는 첫 방문자에 의해서 단 한번 수행됨
+	Connection conn = null;
+	Statement stmt = null;
+	ResultSet rs = null;
+%>    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JDBC Excercise</title>
+</head>
+<body>
+
+
+</body>
+</html>
