@@ -1,0 +1,28 @@
+package com.exercise.dao;
+
+import java.io.IOException;
+import java.sql.Connection;
+
+import javax.naming.InitialContext;
+
+import org.apache.catalina.Context;
+
+public class DaoEx {
+	//Singleton
+	private DaoEx() {}
+	
+	private static DaoEx instance = new DaoEx();
+	
+	public static DaoEx getInstance() {
+		return instance;
+	}
+	
+	public Connection getConnection() throws IOException{
+		Connection conn = null;
+		Context initContext = new InitialContext();
+		Context envContext = (Context) initContext.lookup("java:/comp/env");
+		DataSource ds = (DataSource) envContext.lookup("jdbc/myorcle");
+		conn = ds.getConnection();
+		return conn;
+	}
+}

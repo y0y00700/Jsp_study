@@ -1,0 +1,17 @@
+package com.exercise.dao;
+
+import java.io.IOException;
+import java.sql.Connection;
+
+public class DaoEx {
+	//Singleton
+	private DaoEx() {}
+	
+	public static DaoEx getInstance() {
+		return instance;
+	}
+	
+	public Connection getConnection() throws IOException{
+		
+	}
+}

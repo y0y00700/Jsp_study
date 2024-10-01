@@ -1,0 +1,14 @@
+package com.exercise.dao;
+
+public class DaoEx {
+	//Singleton
+	private DaoEx() {}
+	
+	public static DaoEx getInstance() {
+		return instance;
+	}
+	
+	public Connection getConnection() throws IOException{
+		
+	}
+}

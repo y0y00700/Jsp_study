@@ -1,7 +1,0 @@
-package com.exercise.voExample;
-
-public class MemberVO {
-	private String name;
-	private String id;
-	private string pwd;
-}

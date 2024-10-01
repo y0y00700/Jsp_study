@@ -14,7 +14,6 @@ INDEX VERSION 1.134+C:\Users\k5096\Documents\GitHub\Jsp_study\jsp_workspace\.met
 380079852.index
 3684109068.index
 2715310064.index
-3145872841.index
 337497276.index
 2229886263.index
 2952488648.index

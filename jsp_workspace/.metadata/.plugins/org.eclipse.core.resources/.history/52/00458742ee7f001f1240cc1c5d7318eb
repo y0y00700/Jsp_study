@@ -1,0 +1,21 @@
+package com.exercise.dao;
+
+import java.io.IOException;
+import java.sql.Connection;
+
+import org.apache.catalina.Context;
+
+public class DaoEx {
+	//Singleton
+	private DaoEx() {}
+	
+	public static DaoEx getInstance() {
+		return instance;
+	}
+	
+	public Connection getConnection() throws IOException{
+		Connection conn = null;
+		Context initContext = new InitialContext();
+		
+	}
+}

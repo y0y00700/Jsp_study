@@ -1,0 +1,6 @@
+package com.exercise.dao;
+
+public class DaoEx {
+	//Singleton
+	
+}
