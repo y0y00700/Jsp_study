@@ -153,7 +153,15 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\k5096\Documents\GitHub\Jsp_study\jsp_workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\k5096\Documents\GitHub\Jsp_study\jsp_workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web-Practice" path="/web-Practice" reloadable="true" source="org.eclipse.jst.jee.server:web-Practice"/></Host>
+      <Context docBase="C:\Users\k5096\Documents\GitHub\Jsp_study\jsp_workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\k5096\Documents\GitHub\Jsp_study\jsp_workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web-Practice" path="/web-Practice" reloadable="true" source="org.eclipse.jst.jee.server:web-Practice"/>
+      <Context docBase="C:\Users\k5096\Documents\GitHub\Jsp_study\jsp_workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\mvc2Project" path="/mvc2Project" reloadable="true" source="org.eclipse.jst.jee.server:mvc2Project">
+        <!-- DBCP 연동 시, server.xml에 DB 상세 정보 표기 + WEB-INF/lib 경로에 ojdbcx.jar (라이브러리 추가)
+      	<Resource docBase="jdbc/myoracle" auth="Container" type="javax.sql.DataSource"
+      			  driverClassName="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin@127.0.0.1:1521:XE"
+      			  username="scott" password="tiger" maxActive="20" maxIdle="10" maxWait="-1" />
+        -->
+      </Context>
+      </Host>
     </Engine>
   </Service>
 </Server>
