@@ -12,9 +12,9 @@ public class BoardDAO {
 	private BoardDAO() {}
 	
 	// Singleton Pattern DAO 
-	public static BoardDAO instance = new BoardDAO();
+	private static BoardDAO instance = new BoardDAO();
 	
-	private static BoardDAO getInstance() {
+	public static BoardDAO getInstance() {
 		return instance;
 	}
 	
